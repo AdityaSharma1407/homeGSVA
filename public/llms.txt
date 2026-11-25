@@ -1,0 +1,20 @@
+# HomeCalc Pro (https://home.gsvalab.com)
+
+> HomeCalc Pro is a zero-server, client-side Home & Renovation Material Estimators Hub built by GSVA Lab. All calculators support both US Imperial (default) and Metric units on the same canonical URL, use IEEE-754 safe ceiling rounding (`safeCeil(v) = Math.ceil(v - 1e-9)`), and persist multi-zone shopping lists in browser `localStorage`.
+
+## Core Material Estimators
+
+- [Paint Calculator](https://home.gsvalab.com/paint-calculator/): Calculates wall, ceiling, and baseboard trim paint in US gallons/quarts and liters/tins. Deducts doors (21 sq ft default) and windows (15 sq ft default), applies surface porosity multipliers (1.00x smooth, 1.15x textured, 1.20x raw), and optimizes gallon-vs-quart splits. Default coverage: 350 sq ft/gal (10 m²/L).
+- [Concrete Calculator](https://home.gsvalab.com/concrete-calculator/): Estimates net and order volume (cubic yards, cubic feet, cubic meters), weight (150 lb/cu ft or 2,400 kg/m³), and pre-mixed bag counts (40 lb = 0.30 cu ft, 60 lb = 0.45 cu ft, 80 lb = 0.60 cu ft, 20 kg = 9 L, 25 kg = 10 L) for slabs, footings, cylindrical columns, and concrete steps.
+- [Mulch Calculator](https://home.gsvalab.com/mulch-calculator/): Converts rectangular beds, circular tree rings, or direct areas at 1–4+ inch depths into bulk cubic yards, cubic meters, and 2 cu ft / 3 cu ft (or 50 L / 75 L) retail bags.
+- [Tile Wastage Calculator](https://home.gsvalab.com/tile-wastage-calculator/): Computes exact tiles and boxes using effective tile pitch `(L + gap) × (W + gap)`, layout pattern waste (10% straight, 15% running bond, 20% diagonal), cementitious grout weight (1.9 kg/L), and centered layout edge-cut checks.
+- [Fencing Calculator](https://home.gsvalab.com/fencing-calculator/): Sizes fence sections, posts (straight `sections + 1` vs closed `sections`), rails, nominal-adjusted pickets (`5.5 in` actual 1×6), gate deductions, and cylindrical post-hole concrete bags after subtracting buried post volume.
+- [Gravel Calculator](https://home.gsvalab.com/gravel-calculator/): Estimates aggregate weight (US tons, metric tonnes) and bulk volume (cubic yards, cubic meters) across #57 crushed stone (2,700 lb/yd³), all-purpose gravel (2,835 lb/yd³), pea gravel (2,592 lb/yd³), crusher run (2,970 lb/yd³), and river rock (2,403 lb/yd³) with compaction buffers.
+
+## Methodology, Trust & Compliance
+
+- [Calculation Methodology](https://home.gsvalab.com/methodology/): Full mathematical formulas, ASTM/Quikrete yield assumptions, and IEEE-754 rounding safeguards.
+- [About HomeCalc Pro](https://home.gsvalab.com/about/): Mission and zero-server architecture by GSVA Lab.
+- [Privacy Policy](https://home.gsvalab.com/privacy-policy/)
+- [Terms of Use](https://home.gsvalab.com/terms/)
+- [Contact](https://home.gsvalab.com/contact/)
