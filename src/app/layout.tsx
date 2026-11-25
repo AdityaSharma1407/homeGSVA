@@ -24,6 +24,9 @@ export const metadata: Metadata = {
     icon: [{ url: '/favicon.svg', type: 'image/svg+xml' }],
     apple: [{ url: '/favicon.svg', type: 'image/svg+xml' }],
   },
+  verification: {
+    google: 'lsRaOmbxnKQtMOvI5oxsTVdtyBBuVHI7K-osBscbwds',
+  },
 };
 
 const orgSchema = {
